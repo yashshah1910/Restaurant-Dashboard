@@ -17,6 +17,7 @@ function MapItem(props) {
               src={`https://datastudio.google.com/embed/reporting/430242fa-4162-4950-a984-824b3b355b3c/page/dQMwC?params={%22ds2.name2%22:%22${m.resName}%22%7D`}
               class="embed-responsive-item"
               alt={m.resName}
+              title={m.resName}
             />
           </div>
           <div class="card-body">
