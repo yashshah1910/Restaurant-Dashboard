@@ -2,12 +2,11 @@ import mapContext from "./mapContext";
 import { useState } from "react";
 
 const MapState = (props) => {
-  const host = "http://localhost:5000";
   const mapInitial = [];
   const [maps, setMaps] = useState(mapInitial);
   //Add map
   const getMap = async () => {
-    const response = await fetch(`${host}/api/map/fetchallmaps`, {
+    const response = await fetch("api/map/fetchallmaps", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -20,7 +19,7 @@ const MapState = (props) => {
   };
   //Add map
   const addMap = async (userName, resName) => {
-    const response = await fetch(`${host}/api/map`, {
+    const response = await fetch("api/map", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -40,7 +39,7 @@ const MapState = (props) => {
 
 
   const updateMap = async (id, bookmark) => {
-    const response = await fetch(`${host}/api/map/updatemap/${id}`, {
+    const response = await fetch(`api/map/updatemap/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json"
@@ -55,7 +54,7 @@ const MapState = (props) => {
 
 
   const deleteMap = async (id) => {
-    const response = await fetch(`${host}/api/map/deletemap/${id}`, {
+    const response = await fetch(`api/map/deletemap/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json"
