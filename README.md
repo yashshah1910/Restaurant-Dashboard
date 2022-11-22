@@ -1,3 +1,8 @@
+# For guest login use below credentials:
+
+**Username:** user1\
+**Password:** password1
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
