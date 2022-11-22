@@ -3,6 +3,13 @@
 **Username:** user1\
 **Password:** password1
 
+![login](https://user-images.githubusercontent.com/84139419/203263054-bbda57bb-a37f-48ea-90af-2d1ce9548456.PNG)
+![homepage](https://user-images.githubusercontent.com/84139419/203263066-72798aad-39e0-4e5d-aebb-ecd12541eac2.PNG)
+![search_restaurant](https://user-images.githubusercontent.com/84139419/203263061-0eac4b96-361a-4972-89e8-8f9516706978.PNG)
+![added_restaurant](https://user-images.githubusercontent.com/84139419/203263060-77422239-29e5-4eb9-acaa-8c173353636e.PNG)
+![bookmark](https://user-images.githubusercontent.com/84139419/203263059-0bb84ccb-2ea6-4c9f-8dab-66aa1e1aed12.PNG)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
